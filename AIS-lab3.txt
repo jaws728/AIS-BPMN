@@ -1,0 +1,16 @@
+2.3.1. Para se tornar o processo mais realistico podemos estar constantemente a ler a temperatura e
+ajustar o sinal de HVAC com intervalos de tempo. Para tirar o aproveito das temperaturas, podemos verificar 
+a temperatura exterior e comparando com a temperatura interior usando varias condicoes, por exemplo,
+manter a temperatura interior num graus superior ou inferior de acordo com se o tempo esta frio o quente.
+
+3.0.0. O processo comeca por pedir o nome do utilizador e a temperatura de comforto a que este pretende, verifica
+a temperatura da casa e a temperatura exterior. Depois verifica se a temperatura da casa e exterior seja maior ou menor 
+que a temperatura de comforto inserido pelo utilizador. Caso sejam inferiores o sistema vai aumentar a temperatura ligando
+o aquecimento (adicionando um grau a temperatura da casa), caso superiores entao diminui-se a temperatura usando o ar condicionado. E por fim, mostra os dados todos
+quer temperaturas de casa, exterior ou de comforto quer o estado de equipamento.
+
+3.0.1. O problema que se pode colocar seria o facto do sistema estar limitado ao facto da temperatura so ir um valor mais
+perto da temperatura de comforto. E poderia-se resolver o problema colocando este sistema de detecao de temperatura em ciclo.
+
+3.1.1. Parece que este tipo de interoperabilidade ser do genero sintatica, pelo que a troca de informacoes vira ser realizada
+por uma linguagem universal, que neste caso, o json.

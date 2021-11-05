@@ -1,0 +1,4 @@
+2.1.0: Ja executou "Entrar em casa" e esta a espera da resposta de "Ler Temperatura".
+
+
+2.1.1: Temperatura de casa esta guardada na variavel "temperaturadacasa".

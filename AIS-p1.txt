@@ -1,0 +1,28 @@
+1.0.0: Faz a chamada de temperatura da cidade indicada.
+
+1.0.1: Os parâmetros com {} são substituidas pelos nomes específicos, 
+como “city name” “state code” e “API key”
+
+1.1.0: Obteve-se a latitude e logitude da cidade inserida(almada), 
+indica uma breve descrição da temperatura, as temperaturas mínimas e máximas, 
+temperatura sentida, a pressão do ar, humidade, vento com o sentido e velocidade, 
+a quantidade de nuvens, o tempo de  nascer e descer do sol, fuso horário, 
+o nome da cidade e o código do mesmo.
+
+1.1.1: Estamos numa linguagem de descrição, chamado JSON, 
+para ler melhor a informação podemos formatar o código, por exemplo:
+
+Temos {"coord":{"lon”:100,”lat”:200}}, em vez disto podemos ter,
+{
+	"coord":
+	{
+		"lon”:100,
+		”lat”:200
+	}
+}.
+
+1.2.0: Assim ja seria mais facil de interpretar as informacoes obtidas.
+
+1.5.0: A principal diferenca ha de ser a forma como o codigo se encontra em termos de formato, 
+no Browser tem-se tudo seguido, enquanto que no postman ja tem em formato de codigo que estamos mais habituado a ler,
+porem ainda podemos usar o codigo para que a informacao seja apresentada em linguagem que nos comunicamos no dia a dia.
